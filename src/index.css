@@ -1,0 +1,6 @@
+@import url(//fonts.googleapis.com/earlyaccess/kopubbatang.css);
+
+:global html {
+  font-family: "KoPub Batang", serif;
+  font-size: 18px;
+}
