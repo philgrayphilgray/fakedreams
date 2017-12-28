@@ -1,6 +1,15 @@
-@import url(//fonts.googleapis.com/earlyaccess/kopubbatang.css);
-
 :global html {
   font-family: "KoPub Batang", serif;
   font-size: 18px;
+  box-sizing: border-box;
+}
+
+:global *,
+:global *:before,
+:global *:after {
+  box-sizing: inherit;
+}
+
+:global body {
+  margin: 0;
 }

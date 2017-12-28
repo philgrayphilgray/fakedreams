@@ -6,8 +6,10 @@
   align-items: center;
   justify-content: center;
   position: absolute;
-  width: 411px;
-  height: 731px;
+  /* width: 411px;
+  height: 731px; */
+  width: 100vw;
+  height: 100vh;
   left: 0px;
   top: 0px;
   background: linear-gradient(180deg, #142a3c 0%, #3b2434 100%);
@@ -16,7 +18,6 @@
 .Heading {
   width: 100%;
   height: auto;
-  color: #f7f2f2;
   align-self: flex-end;
 }
 
@@ -24,14 +25,22 @@
   max-width: 80%;
   margin: 0 auto;
   font-size: 3.583em;
+  font-style: normal;
   font-weight: normal;
+  line-height: normal;
+  color: #f7f2f2;
 }
 .Heading h3 {
-  margin-top: 3em;
+  margin-top: 2em;
   font-size: 1em;
+  font-style: normal;
   font-weight: normal;
+  line-height: normal;
+  color: #ebdfdf;
 }
 
 .ButtonGroup {
   width: 100%;
+  align-self: flex-end;
+  margin: 2em 0;
 }

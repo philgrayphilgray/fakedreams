@@ -1,0 +1,18 @@
+.SignupForm {
+  margin: 1em;
+  text-align: center;
+}
+
+.Signup fieldset {
+  border: none;
+  border-top: 1px solid #ebdfdf;
+  margin: 1em 0;
+  padding: 1en 0;
+}
+
+.Signup ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: 100%;
+}

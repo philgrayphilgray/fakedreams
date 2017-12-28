@@ -3,7 +3,10 @@ import styles from "./Button.css";
 
 const Button = props => {
   return (
-    <button className={styles.Button} onClick={props.clicked}>
+    <button
+      className={[styles.Button, props.type].join(" ")}
+      onClick={props.clicked}
+    >
       {props.children}
     </button>
   );
