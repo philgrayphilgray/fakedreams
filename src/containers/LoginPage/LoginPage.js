@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { withRouter } from "react-router-dom";
+
 import Button from "../../components/UI/Button/Button";
 import styles from "./LoginPage.css";
 
@@ -12,6 +13,7 @@ class LoginPage extends Component {
     e.preventDefault();
     this.props.history.push("/login");
   };
+
   render() {
     return (
       <div className={styles.LoginPage}>
