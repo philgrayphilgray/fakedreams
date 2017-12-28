@@ -1,0 +1,11 @@
+.ProfilePage ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ProfilePage pre {
+  background: #ccc;
+  padding: 1em;
+  margin: 1em;
+}
