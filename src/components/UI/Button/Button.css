@@ -26,6 +26,11 @@
   color: #fff;
 }
 
+.Button[class~="danger"] {
+  background: #b92a1d;
+  color: #fff;
+}
+
 .Button:hover {
   cursor: pointer;
   box-shadow: 2px 6px 4px rgba(0, 0, 0, 0.25);
