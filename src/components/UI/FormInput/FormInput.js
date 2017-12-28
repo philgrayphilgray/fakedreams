@@ -10,6 +10,8 @@ const FormInput = props => {
         type={props.type}
         name={props.name}
         placeholder={props.placeholder}
+        onChange={props.change}
+        required={props.required}
       />
     </li>
   );
