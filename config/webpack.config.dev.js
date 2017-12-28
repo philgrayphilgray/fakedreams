@@ -155,6 +155,7 @@ module.exports = {
           // in development "style" loader enables hot editing of CSS.
           {
             test: /\.css$/,
+            exclude: /node_modules/,
             use: [
               require.resolve("style-loader"),
               {

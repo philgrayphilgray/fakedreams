@@ -3,12 +3,14 @@ import styles from "./Button.css";
 
 const Button = props => {
   return (
-    <button
-      className={[styles.Button, props.type].join(" ")}
-      onClick={props.clicked}
-    >
-      {props.children}
-    </button>
+    <div className={styles.Container}>
+      <button
+        className={[styles.Button, props.type].join(" ")}
+        onClick={props.clicked}
+      >
+        {props.children}
+      </button>
+    </div>
   );
 };
 

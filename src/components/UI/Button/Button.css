@@ -1,4 +1,10 @@
+.Container {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
 .Button {
+  position: relative;
   background: #ebdfdf;
   padding: 1em 2em;
   margin: 0.5em 1em;
